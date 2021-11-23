@@ -1,12 +1,4 @@
-let ImagemFundoJogo;
-let imagemPersonagem;
-let imagemCarro;
-let imagemCarro2;
-let imagemCarro3;
-let imagemCarro4;
-let imagemCarro5;
-let imagemCarro6;
-
+// variaveis dos sons do jogo
 let somPontos;
 let somBatida;
 let somFundo;
@@ -28,6 +20,8 @@ function preload() {
     imagemCarro4,
     imagemCarro5,
     imagemCarro6,
+    imagemCarro2,
+    imagemCarro3
   ];
 
   somPontos = loadSound("sons/pontos.wav");
